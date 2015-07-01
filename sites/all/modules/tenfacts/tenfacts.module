@@ -1,0 +1,176 @@
+<?php
+/**
+/* @file Webservices implemented for the accuweigh mobile application. This includes the custom webservices created.
+/* Important note this services will requre the authencitaion to access those websercices.
+*  Implements hook_menu
+*/
+function tenfacts_menu() {
+	$items = array();
+
+	 $items['serviceLoginAuth'] = array(
+        'title' => 'Service Login Auth',
+        'description' => 'Service Login Auth',
+        'page callback' => 'get_masonry_content',
+        'access callback' => TRUE,
+    );
+	
+    
+    return $items;
+}
+
+/**
+* Implements hook_block_info()
+*/
+function tenfacts_block_info() {
+
+    $blocks['masonry_content'] = array(
+        'info' => t('Masonry contnet for home and taxonomy pages'),
+        'cache' => DRUPAL_CACHE_PER_ROLE, 
+    );
+	
+	$blocks['categories_content'] = array(
+        'info' => t('Slider contnet for home and inner pages'),
+        'cache' => DRUPAL_CACHE_PER_ROLE, 
+    );
+	
+	$blocks['popular_content'] = array(
+        'info' => t('Popular contnet for home and inner pages'),
+        'cache' => DRUPAL_CACHE_PER_ROLE, 
+    );
+	
+      return $blocks;
+}
+
+
+/**
+* Implements hook_block_view()
+*/
+function tenfacts_block_view($delta = '') {
+    switch ($delta) {
+         case 'masonry_content':
+            $getArticles = get_masonry_content();
+            $block['subject'] = t('Masonry contnet for home and taxonomy pages');
+            $block['content'] = $getArticles;
+            break;
+			
+		 case 'categories_content':
+            $getArticles = get_random_content();
+            $block['subject'] = t('Slider random contnet for home and innerpages');
+            $block['content'] = $getArticles;
+            break;
+		
+		case 'popular_content':
+            $getArticles = get_popular_content();
+            $block['subject'] = t('Popular contnet for home and innerpages');
+            $block['content'] = $getArticles;
+            break;	
+			
+    }
+	
+    return $block;
+   
+}
+
+/**
+* Function Implemented to get the masonry content in block
+**/
+function get_masonry_content(){
+ 
+  $query = db_select('node', 'n');
+  $query->fields('n');
+  $query->condition('n.type', 'list_parent_article', '=');
+  
+  if((arg(0) == 'taxonomy') && (arg(1) == 'term')){
+  	$termid = arg(2);
+	//echo $termid; exit;
+	$query->leftJoin('field_data_field_categories ', 'o', '(n.nid = o.entity_id )');
+	$query->condition('o.field_categories_tid', $termid, '=');
+  } 
+  
+  $query->condition('n.status', '1', '=');
+  $result = $query->extend('PagerDefault')->element(0)->limit(8)
+            ->orderBy('n.nid','DESC')
+			->execute()
+            ->fetchAll();
+ 
+  $args = array('element' => 0);
+  $paging = theme('pager', $args);
+/*  echo "<pre>";
+  print_r($paging); exit;*/	
+  $result = theme('list_masonry_content', array('vars' => $result, 'pager' => $paging));
+  
+  
+  return $result; 
+}
+
+function get_random_content(){
+ 
+  $query = db_select('node', 'n');
+  $query->fields('n');
+  $query->condition('n.type', 'list_parent_article', '=');
+  
+	$query->leftJoin('field_data_field_categories ', 'o', '(n.nid = o.entity_id )');
+	//$query->condition('o.field_categories_tid', $termid, '=');
+ 
+  
+  $query->condition('n.status', '1', '=');
+  $result = $query->extend('PagerDefault')->range(0,6)
+            ->groupBy('o.field_categories_tid')
+			->orderRandom()
+			->execute()
+            ->fetchAll();
+ 
+  $result = theme('list_random_content', array('vars' => $result));
+  
+  return $result; 
+}
+
+function get_popular_content(){
+
+  $query = db_select('node', 'n');
+  $query->fields('n');
+  $query->condition('n.type', 'list_parent_article', '=');
+  
+	//$query->leftJoin('field_data_field_categories ', 'o', '(n.nid = o.entity_id )');
+	//$query->condition('o.field_categories_tid', $termid, '=');
+ 
+  
+  $query->condition('n.status', '1', '=');
+  $result = $query->range(0,4)
+			->orderRandom()
+			->execute()
+            ->fetchAll();
+ 
+  $result = theme('list_popular_content', array('vars' => $result));
+  
+  return $result; 
+}
+
+
+function tenfacts_theme() {
+    return array(
+        'list_masonry_content' => array(
+            'variables' => array('vars' => NULL),
+            'template' => 'list_masonry_content',
+            'path' => drupal_get_path('module', 'tenfacts') . '/theme',
+        ),	
+		'list_random_content' => array(
+            'variables' => array('vars' => NULL),
+            'template' => 'list_random_content',
+            'path' => drupal_get_path('module', 'tenfacts') . '/theme',
+        ),
+		'list_popular_content' => array(
+            'variables' => array('vars' => NULL),
+            'template' => 'list_popular_content',
+            'path' => drupal_get_path('module', 'tenfacts') . '/theme',
+        ),	
+   );
+}
+
+
+
+
+
+
+
+?>

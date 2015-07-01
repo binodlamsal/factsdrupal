@@ -1,0 +1,31 @@
+.views-field-nothing{
+	float:left;
+	margin-right:10px;
+}
+
+.views-field-field-slide-body-text{
+	/*clear:both;*/}
+
+.pager{
+	clear:both;
+}
+
+#block-block-3{
+	display:none;
+}
+
+@media screen and (max-width: 800px) {
+#block-block-3{
+	display:block !important;
+}
+
+#block-block-1{
+	display:none !important;
+}	
+
+.tfa-content {
+  padding: 35px 0;
+  background: #FFFFFF !important;
+}
+		
+}

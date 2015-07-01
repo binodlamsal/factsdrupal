@@ -1,0 +1,24 @@
+RISING BACKLINKS
+================
+
+This project is an initiative of RISING EDUTECH PVT. LTD., Mumbai, India. (www.risingedutech.com)
+
+Rising Backlinks project is developed to provide quality backlinks for websites in order to improve the page rank on search engines. More quality backlinks, leads to better page rank.
+
+In order to check your backlinks, please follow the following steps-
+
+1. Unzip risingbacklinks.zip file. It will create risingbacklinks folder. This folder contains 4 files - index.html, risingbacklinks.php, curl.php, install.txt
+
+2. Upload risingbacklinks folder at the root of your domain, otherwise the application will not work. For e.g. www.yourdomainname.com/risingbacklinks
+   (Please do not change the folder and file name.)
+
+3. To check total backlinks of your website, access risingbacklinks folder regularly through your website. For e.g. www.yourdomainname.com/risingbacklinks/index.html
+   First time when you access this link, you need to activate your account by clicking on the provided link.
+
+In order to harvest backlinks for your domain, we request you to display risingbacklinks widget on your website. So that more people will come to know about the project and more websites will get registered. Eventually it will help us in increasing backlinks.
+
+In case of any query, please feel free to fill up Contact Us Form.
+
+Thank you.
+
+=====================================================================================================================================================================

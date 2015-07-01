@@ -1,0 +1,8 @@
+name = Ten facts page elements	
+description = Custom tenfacts page elements
+core = 7.x
+version = VERSION
+package = EXTRA
+files[] = tenfacts.inc
+ 
+ 

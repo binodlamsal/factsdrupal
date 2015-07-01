@@ -1,0 +1,60 @@
+[01-Jan-2015 16:09:36] PHP Fatal error:  Call to undefined function webform_menu_load() in /home1/tenfacts/public_html/includes/menu.inc on line 593
+[01-Jan-2015 16:09:57] PHP Fatal error:  Call to undefined function webform_menu_load() in /home1/tenfacts/public_html/includes/menu.inc on line 593
+[01-Jan-2015 16:10:07] PHP Fatal error:  Call to undefined function webform_menu_load() in /home1/tenfacts/public_html/includes/menu.inc on line 593
+[01-Jan-2015 16:10:12] PHP Fatal error:  Call to undefined function webform_menu_load() in /home1/tenfacts/public_html/includes/menu.inc on line 593
+[01-Jan-2015 16:10:16] PHP Fatal error:  Call to undefined function webform_menu_load() in /home1/tenfacts/public_html/includes/menu.inc on line 593
+[01-Jan-2015 16:10:19] PHP Fatal error:  Call to undefined function webform_menu_load() in /home1/tenfacts/public_html/includes/menu.inc on line 593
+[01-Jan-2015 16:10:23] PHP Fatal error:  Call to undefined function webform_menu_load() in /home1/tenfacts/public_html/includes/menu.inc on line 593
+[17-Jan-2015 12:06:58] PHP Fatal error:  Cannot redeclare tenfacts_preprocess_html() (previously declared in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php:16) in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php on line 132
+[17-Jan-2015 12:07:11] PHP Fatal error:  Cannot redeclare tenfacts_preprocess_html() (previously declared in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php:16) in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php on line 132
+[17-Jan-2015 12:07:23] PHP Fatal error:  Cannot redeclare tenfacts_preprocess_html() (previously declared in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php:16) in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php on line 132
+[17-Jan-2015 12:09:27] PHP Fatal error:  Cannot redeclare tenfacts_preprocess_html() (previously declared in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php:16) in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php on line 132
+[17-Jan-2015 12:10:55] PHP Fatal error:  Cannot redeclare tenfacts_preprocess_html() (previously declared in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php:16) in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php on line 132
+[17-Jan-2015 12:10:56] PHP Fatal error:  Cannot redeclare tenfacts_preprocess_html() (previously declared in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php:16) in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php on line 132
+[17-Jan-2015 12:11:03] PHP Fatal error:  Cannot redeclare tenfacts_preprocess_html() (previously declared in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php:16) in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php on line 132
+[17-Jan-2015 12:13:39] PHP Fatal error:  Cannot redeclare tenfacts_preprocess_html() (previously declared in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php:16) in /home1/tenfacts/public_html/sites/all/themes/tenfacts/template.php on line 132
+[17-Jan-2015 17:13:34] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:13:42] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:13:46] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:15:24] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:15:52] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:17:36] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:17:37] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:19:58] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:19:59] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:09] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:22] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:23] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:29] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:30] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:30] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:31] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:31] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:31] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:31] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:31] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:31] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:31] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:32] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:32] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:32] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:32] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:32] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:33] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:33] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:33] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:33] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:33] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:33] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:34] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:34] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:34] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:20:52] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:21:25] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:22:28] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:22:36] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:22:54] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:25:40] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:25:51] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[17-Jan-2015 17:25:53] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home1/tenfacts/public_html/sites/all/modules/tenfacts/tenfacts.module on line 143
+[31-Jan-2015 10:55:22] PHP Fatal error:  Call to undefined function  print_t() in /home1/tenfacts/public_html/sites/all/modules/metatag/metatag.module on line 1150
