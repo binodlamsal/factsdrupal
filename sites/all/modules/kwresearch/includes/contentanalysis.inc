@@ -22,7 +22,7 @@ function kwresearch_contentanalysis_analyzer_info() {
 }
 
 /**
- * Implements hook_analyzer_form_elements() via custom define callback().
+ * Implements hook_analyzer_form_elements() via custom define callback().
  *
  * hook to add any analyzier specific form elements to the content analyzer form.
  * callback is defined in hook_contentanalysis_analyzers ['form elements callback']
@@ -98,7 +98,7 @@ function kwresearch_analyzer_form_elements($form_state, $analysis = '', $node = 
 }
 
 /**
- * Implements hook_analyzer() via custom define callback().
+ * Implements hook_analyzer() via custom define callback().
  */
 function kwresearch_analyzer($context, $analysis, $params) {
   require_once DRUPAL_ROOT . '/' . drupal_get_path('module', 'kwresearch') . "/includes/stats_report.inc";

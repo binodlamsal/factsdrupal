@@ -1,6 +1,4 @@
-<?php
-
-global $base_url; ?>
+<?php global $base_url; ?>
 <!--[if lt IE 7]>
 
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -57,7 +55,7 @@ global $base_url; ?>
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-4">
+                        <div class="col-lg-8 col-md-8 col-sm-9 col-xs-4">
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
                               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -91,7 +89,7 @@ global $base_url; ?>
                                 </ul>
                             </div><!-- /.navbar-collapse -->
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-3 hidden-sm col-xs-8">
+                        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-8">
                             <ul class="nav navbar-nav tfa-navbar-default tfa-social pull-right">
                                 <li><a href="http://facebook.com/tenfactsalive" target="_blank" class="tfa-social-icon tfa-social-icon-fb" title="Facebook"></a></li>
                                 <li><a href="https://twitter.com/tenfactsalive" target="_blank" class="tfa-social-icon tfa-social-icon-tw" title="Twitter"></a></li>

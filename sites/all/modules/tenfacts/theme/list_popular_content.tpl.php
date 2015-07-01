@@ -13,7 +13,7 @@
 											$imageOutput = field_view_value('node', $node, 'field_parent_list_slide_image', $files[$keys], array(
 												'type' => 'image',
 												'settings' => array(
-												'image_style' => 'popular_thumbnail', //place your image style here					
+												'image_style' => 'middle_thumb', //place your image style here					
 												'image_link' => 'content',
 												),
 											));

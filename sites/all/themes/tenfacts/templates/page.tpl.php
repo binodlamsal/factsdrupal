@@ -118,30 +118,15 @@
                    <?php if ($page['masonry']): ?>
                    <?php print render($page['masonry']); ?>
                    <?php endif; ?>
+                 
+                 <?php if ($page['top_ad']): ?>
+                   <?php print render($page['top_ad']); ?>
+                   <?php endif; ?>
+                 
                    
                    <div class="tfa-title">
                    
-                   <div id="contentad63700"></div>
-<script type="text/javascript">
-    (function(d) {
-        var params =
-        {
-            id: "7af96ccd-d670-45a2-8b8c-33f5a44e3acd",
-            d:  "dGVuZmFjdHNhbGl2ZS5jb20=",
-            wid: "63700",
-            cb: (new Date()).getTime()
-        };
-
-        var qs=[];
-        for(var key in params) qs.push(key+'='+encodeURIComponent(params[key]));
-        var s = d.createElement('script');s.type='text/javascript';s.async=true;
-        var p = 'https:' == document.location.protocol ? 'https' : 'http';
-        s.src = p + "://api.content.ad/Scripts/widget2.aspx?" + qs.join('&');
-        d.getElementById("contentad63700").appendChild(s);
-    })(document);
-</script>
-                   
-                        <h2><?php print render($title) ?></h2>
+                       <h2><?php print render($title) ?></h2>
                        <?php if($node->type == 'list_parent_article') {
 						   $user = user_load($node->uid)
 						    ?>

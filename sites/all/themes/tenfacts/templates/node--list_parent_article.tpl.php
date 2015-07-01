@@ -72,7 +72,7 @@
 											$imageOutput = field_view_value('node', $node, 'field_parent_list_slide_image', $files[$keys], array(
 												'type' => 'image',
 												'settings' => array(
-												'image_style' => 'popular_thumbnail', //place your image style here					
+												'image_style' => 'middle_thumb', //place your image style here					
 												'image_link' => 'content',
 												),
 											));
@@ -89,7 +89,7 @@
                                         <div class="tfa-block-content">
                                            <span class="author">By <?php  echo l(user_load($node->uid)->name, 'user/'.$var->uid); ?></span>
                                             <h4><?php echo l($node->title, 'node/'.$node->nid) ?></h4>
-                                            <p><?php  echo substr($node->field_list_description['und'][0]['value'], 0, 80) ?>..</p>
+                                            <!--<p><?php  echo substr($node->field_list_description['und'][0]['value'], 0, 80) ?>..</p>-->
                                         </div>
                                     </article>
                                 </div>
