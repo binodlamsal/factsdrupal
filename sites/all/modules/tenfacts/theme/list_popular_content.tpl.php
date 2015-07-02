@@ -31,7 +31,7 @@
 
                             <div class="tfa-block-content">
 
-                                <span class="author">By <?php  echo l(user_load($var->uid)->name, 'user/'.$var->uid); ?></span>
+                               <!-- <span class="author">By <?php  echo l(user_load($var->uid)->name, 'user/'.$var->uid); ?></span>-->
 
                                 <h4><?php echo l($node->title, 'node/'.$var->nid) ?></h4>
 

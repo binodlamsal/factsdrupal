@@ -70,13 +70,13 @@
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5546db2608bf1056" async></script>
 
-<?php if(!drupal_is_front_page()){ ?>
+<!--<?php if(!drupal_is_front_page()){ ?>
 <script type="text/javascript">
 var infolinks_pid = 2454998;
 var infolinks_wsid = 0;
 </script>
 <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
-<?php } ?>
+<?php } ?>-->
 
 </body>
 </html>
