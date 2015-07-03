@@ -81,7 +81,7 @@
 								  
 								  ?>
                               
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                                     <article>
                                         <figure>
                                             <?php print render($imageOutput);  ?>
