@@ -87,7 +87,7 @@
                                             <?php print render($imageOutput);  ?>
                                         </figure>
                                         <div class="tfa-block-content">
-                                           <span class="author">By <?php  echo l(user_load($node->uid)->name, 'user/'.$var->uid); ?></span>
+                                           <!--<span class="author">By <?php  echo l(user_load($node->uid)->name, 'user/'.$var->uid); ?></span>-->
                                             <h4><?php echo l($node->title, 'node/'.$node->nid) ?></h4>
                                             <!--<p><?php  echo substr($node->field_list_description['und'][0]['value'], 0, 80) ?>..</p>-->
                                         </div>
