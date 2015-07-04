@@ -28,9 +28,12 @@
   background: #FFFFFF !important;
 }
 
+
+		
+}
+@media screen and (min-width: 768px) {
 .tfa-block.tfa-block-popular article figure{
   max-width: 100% !important;
   float:none !important; 
 }
-		
 }
