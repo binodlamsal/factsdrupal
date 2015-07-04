@@ -16,11 +16,11 @@
 
 @media screen and (max-width: 800px) {
 #block-block-3{
-	display:block !important;
+	/*display:block !important;*/
 }
 
 #block-block-1{
-	display:none !important;
+	/*display:none !important;*/
 }	
 
 .tfa-content {

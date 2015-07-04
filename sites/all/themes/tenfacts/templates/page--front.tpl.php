@@ -31,7 +31,7 @@
 
                     <div class="col-lg-9 col-md-9 col-sm-8">
 
-                        <div class="tfa-add tfa-add-728 pull-right">
+                        <div class="tfa-add tfa-add-728 pull-right" style="width:100%;">
 
 			       <?php if ($page['ad_leaderboard']): ?>
                    <?php print render($page['ad_leaderboard']); ?>
