@@ -80,10 +80,10 @@ var infolinks_wsid = 0;
 
 <script type="text/javascript">
 
-$(document).ready(function () {
+jQuery(document).ready(function($) {
     // Handler for .ready() called.
     $('html, body').animate({
-        scrollTop: $('#what').offset().top
+        scrollTop: $('#pageLoadsHere').offset().top
     }, 'slow');
 });
 </script>
