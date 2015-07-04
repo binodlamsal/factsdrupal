@@ -124,7 +124,7 @@
                    <?php endif; ?>
                  
                    
-                   <div class="tfa-title">
+                   <div class="tfa-title" id="pageLoadsHere">
                    
                        <h2><?php print render($title) ?></h2>
                        <?php if($node->type == 'list_parent_article') {

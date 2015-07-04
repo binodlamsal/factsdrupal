@@ -78,5 +78,15 @@ var infolinks_wsid = 0;
 <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
 <?php } ?>-->
 
+<script type="text/javascript">
+
+$(document).ready(function () {
+    // Handler for .ready() called.
+    $('html, body').animate({
+        scrollTop: $('#what').offset().top
+    }, 'slow');
+});
+</script>
+
 </body>
 </html>
