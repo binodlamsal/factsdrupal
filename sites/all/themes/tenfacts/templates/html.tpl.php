@@ -78,8 +78,12 @@ var infolinks_wsid = 0;
 <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
 <?php } ?>-->
 
+<?php if(arg(0) == 'node'){
+	 $arg = arg(1);
+	 $node = node_load($arg);
+	 if($node->type == 'list_parent_article'){
+	 ?>
 <script type="text/javascript">
-
 jQuery(document).ready(function($) {
     // Handler for .ready() called.
     $('html, body').animate({
@@ -87,6 +91,8 @@ jQuery(document).ready(function($) {
     }, 'slow');
 });
 </script>
+
+<?php } } ?>
 
 </body>
 </html>
