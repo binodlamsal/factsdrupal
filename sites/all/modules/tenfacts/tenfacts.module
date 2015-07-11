@@ -88,8 +88,8 @@ function get_masonry_content(){
   } 
   
   $query->condition('n.status', '1', '=');
-  $result = $query->extend('PagerDefault')->element(0)->limit(8)
-            ->orderBy('n.nid','DESC')
+  //$result = $query->extend('PagerDefault')->element(0)->limit(8)
+  $result = $query->orderBy('n.nid','DESC')
 			->execute()
             ->fetchAll();
  
